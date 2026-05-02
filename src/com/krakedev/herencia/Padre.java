@@ -5,7 +5,7 @@ public class Padre {
 	private int virtudes;
 	
 	public Padre() {
-
+		
 	}
 	
 	public int getDefectos() {
