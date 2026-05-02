@@ -18,6 +18,11 @@ public class Hijo extends Padre {
 		+" , Total Ahorrado=" + getTotalAhorrado() + "]";
 	}
 	
+	@Override
+	public void ahorrar(double monto) {
+		setTotalAhorrado((monto*.5)+getTotalAhorrado());
+	}
+	
 	
 	
 	
