@@ -4,6 +4,7 @@ public class Padre {
 	private int defectos;
 	private int virtudes;
 	private double totalAhorrado;
+	private String nombre;
 	
 	public Padre() {
 		
@@ -22,13 +23,20 @@ public class Padre {
 		this.virtudes = virtudes;
 	}
 	
-	
 	public double getTotalAhorrado() {
 		return totalAhorrado;
 	}
 
 	public void setTotalAhorrado(double totalAhorrado) {
 		this.totalAhorrado = totalAhorrado;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	public void imprimir() {
@@ -46,7 +54,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Padre [Defectos=" + defectos + ", Dirtudes=" + virtudes +" , Total Ahorrado=" + totalAhorrado + "]";
+		return "Padre [Nombre= "+ nombre + ", Defectos=" + defectos + ", Dirtudes=" + virtudes +" , Total Ahorrado=" + totalAhorrado  + "]";
 	}
 	
 	

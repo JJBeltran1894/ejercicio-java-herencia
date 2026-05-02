@@ -11,19 +11,21 @@ public class TestAhorros {
 		Hija hija = new Hija();
 		Hijo hijo = new Hijo(5,1,5);
 		
+		padre.setNombre("Luis");
 		padre.setVirtudes(5);
 		padre.setDefectos(4);
 		padre.ahorrar(120.25);
 		
 		System.out.println(padre);
 		
+		hija.setNombre("Carla");
 		hija.setVirtudes(6);
 		hija.setDefectos(3);
 		hija.ahorrar(120.25);
 		
 		System.out.println(hija);
 		
-		
+		hijo.setNombre("David");
 		hijo.ahorrar(120.25);
 		System.out.println(hijo);
 		
