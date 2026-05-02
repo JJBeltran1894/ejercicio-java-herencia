@@ -46,7 +46,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
+		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes +" , totalAhorrado=" + totalAhorrado + "]";
 	}
 	
 	
