@@ -5,6 +5,12 @@ public class Hija extends Padre{
 		System.out.println("Escuchando esta musica horrible");
 	}
 
+	@Override
+	public String toString() {
+		return "Hija [Defectos=" + getDefectos() + ", Virtudes=" + getVirtudes() + ", Total Ahorrado="
+				+ getTotalAhorrado() + "]";
+	}
+
 	//@Override
 	//public String toString() {
 	//	return "Hija [getDefectos()=" + getDefectos() + ", getVirtudes()=" + getVirtudes() + ", toString()="
@@ -16,10 +22,11 @@ public class Hija extends Padre{
 	//	return "Defectos=" + getDefectos() + ", Virtudes=" + getVirtudes();
 	//}
 	
-	@Override
-	public String toString() {
-		return "Defecto: "+ super.getDefectos() +" Virtudes: "+super.getVirtudes();
-	}
+	//@Override
+	//public String toString() {
+	//	return "Defecto: "+ super.getDefectos() +" Virtudes: "+super.getVirtudes();
+	//}
+	
 	
 	
 }
